@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">Vari (வரி)</string>
+    <string name="app_subtitle">Feel it. Write it. Sing it.</string>
+
+    <!-- Navigation Tabs -->
+    <string name="tab_write">Write</string>
+    <string name="tab_my_style">My Style</string>
+    <string name="tab_ideas">Ideas</string>
+    <string name="tab_my_songs">My Songs</string>
+
+    <!-- Firebase AI Notice -->
+    <string name="ai_notice_title">Sample Preview Mode</string>
+    <string name="ai_notice_body">Live Gemini AI lyric generation requires Firebase. Showing clearly labeled sample responses for now.</string>
+
+    <!-- Write Tab -->
+    <string name="write_hero_eyebrow">AI LYRICS STUDIO</string>
+    <string name="write_hero_title">Turn your feelings into beautiful lyrics…</string>
+    <string name="write_no_style_hint">Save your own lyrics in My Style so Vari can learn your voice.</string>
+    <string name="write_add_style_cta">Add Style</string>
+    <string name="write_style_active_fmt">Learning your voice from up to %1$d of %2$d saved style lyrics</string>
+    <string name="label_language">Language</string>
+    <string name="label_custom_language">Type any language</string>
+    <string name="hint_custom_language">e.g. Marathi, Punjabi, Spanish, French</string>
+    <string name="label_topic">Topic or Story</string>
+    <string name="hint_topic">e.g. first love, rain, friendship, mother</string>
+    <string name="label_mood">Mood</string>
+    <string name="label_song_type">Song Type</string>
+    <string name="label_extra_instructions">Extra Instructions (Optional)</string>
+    <string name="hint_extra_instructions">e.g. use simple words, include rain imagery</string>
+    <string name="btn_create_lyrics">Create Lyrics</string>
+    <string name="loading_writing_lyrics">Vari is composing your lyrics…</string>
+    <string name="loading_suggestions">Reviewing rhyme, emotion, and flow…</string>
+    <string name="section_verse_fmt">Verse %1$d</string>
+    <string name="section_chorus">Chorus</string>
+    <string name="section_bridge">Bridge</string>
+    <string name="btn_copy">Copy</string>
+    <string name="btn_save_to_songs">Save to My Songs</string>
+    <string name="btn_saved_to_songs">Saved to My Songs</string>
+    <string name="btn_regenerate">Regenerate</string>
+    <string name="btn_suggest_improvements">Suggest Improvements</string>
+    <string name="improvements_header">Improvement Suggestions</string>
+    <string name="error_topic_required">Enter a song topic first so Vari knows what to write about.</string>
+    <string name="error_custom_language_required">Type the language name when Other is selected.</string>
+    <string name="btn_retry">Try Again</string>
+
+    <!-- My Style Tab -->
+    <string name="style_header_title">Your Writing Voice</string>
+    <string name="style_header_subtitle">Paste your own old lyrics or favorite lines. Stored privately offline on your phone.</string>
+    <string name="style_count_badge_fmt">%1$d saved</string>
+    <string name="style_goal_tip">Tip: Save 5 to 10 of your own songs so Vari captures your rhythm and imagery.</string>
+    <string name="style_form_add_title">Add Style Lyrics</string>
+    <string name="style_form_edit_title">Edit Style Lyrics</string>
+    <string name="label_song_title">Title</string>
+    <string name="hint_style_title">e.g. Mazhai Kaala Ninaivu</string>
+    <string name="label_lyrics_text">Lyrics Text</string>
+    <string name="hint_style_lyrics">Paste your verse, chorus, or favorite poetic lines here…</string>
+    <string name="btn_save_style">Save to My Style</string>
+    <string name="btn_update_style">Update Style</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="style_saved_list_header">Saved Style Library</string>
+    <string name="style_empty_title">No style lyrics yet</string>
+    <string name="style_empty_body">Add your own songs above. Vari uses up to 3 saved pieces as inspiration every time you write.</string>
+    <string name="btn_view">View</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+
+    <!-- Ideas Tab -->
+    <string name="ideas_header_title">Spark Something New</string>
+    <string name="ideas_header_subtitle">Pick a language and let Vari suggest 5 original song concepts. Tap any idea to start writing.</string>
+    <string name="btn_fresh_ideas">Give me fresh ideas</string>
+    <string name="loading_ideas">Brewing 5 fresh song concepts…</string>
+    <string name="ideas_tap_hint">Tap to use in Write</string>
+    <string name="ideas_empty_title">Ready for inspiration?</string>
+    <string name="ideas_empty_body">Tap the button above to get 5 song concepts with titles and one-line stories.</string>
+
+    <!-- My Songs Tab -->
+    <string name="songs_header_title">My Songs</string>
+    <string name="songs_header_subtitle">All songs saved from Write, stored offline on your device.</string>
+    <string name="btn_export_all">Export all</string>
+    <string name="btn_import">Import</string>
+    <string name="hint_search_songs">Search songs by title, topic, or lyrics…</string>
+    <string name="filter_all">All</string>
+    <string name="songs_empty_title">Your songbook is empty</string>
+    <string name="songs_empty_body">Create lyrics in the Write tab and tap Save to My Songs to build your collection.</string>
+    <string name="songs_no_matches_title">No matching songs</string>
+    <string name="songs_no_matches_body">Try clearing your search or switching the language filter.</string>
+    <string name="btn_share">Share</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_save_changes">Save Changes</string>
+    <string name="dialog_edit_song_title">Edit Saved Song</string>
+    <string name="dialog_delete_title">Delete forever?</string>
+    <string name="dialog_delete_song_body">This will permanently remove \"%1$s\" from My Songs on this device.</string>
+    <string name="dialog_delete_style_body">This will permanently remove \"%1$s\" from My Style.</string>
+
+    <!-- Snackbar & Feedback -->
+    <string name="msg_copied">Lyrics copied to clipboard</string>
+    <string name="msg_song_saved">Saved to My Songs</string>
+    <string name="msg_song_updated">Song updated</string>
+    <string name="msg_song_deleted">Song deleted</string>
+    <string name="msg_style_saved">Saved to My Style</string>
+    <string name="msg_style_updated">Style lyrics updated</string>
+    <string name="msg_style_deleted">Style lyrics deleted</string>
+    <string name="msg_idea_loaded">Idea loaded into Write tab</string>
+    <string name="msg_export_success_fmt">Exported %1$d songs &amp; %2$d style lyrics</string>
+    <string name="msg_import_success_fmt">Imported %1$d songs &amp; %2$d style lyrics</string>
+    <string name="msg_export_failed">Could not export backup file</string>
+    <string name="msg_import_failed">Could not read backup file. Please choose a valid Vari JSON backup.</string>
+    <string name="share_chooser_title">Share song lyrics</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_studio_banner">Nocturnal songwriting studio background artwork</string>
+    <string name="cd_clear_search">Clear search text</string>
+    <string name="cd_close_dialog">Close dialog</string>
+    <string name="cd_vision_preview">Selected inspiration photo preview</string>
+
+    <!-- Vision to Lyrics & Continue My Lyrics -->
+    <string name="vision_feature_title">Vision to Lyrics</string>
+    <string name="vision_feature_subtitle">Snap a photo or pick from gallery — Vari turns its atmosphere into original lyrics or continues your song.</string>
+    <string name="vision_mode_new_song">New from Photo</string>
+    <string name="vision_mode_continue">Continue My Lyrics</string>
+    <string name="btn_capture_inspiration">Capture Inspiration</string>
+    <string name="btn_upload_gallery">Upload from Gallery</string>
+    <string name="btn_retake_photo">Retake</string>
+    <string name="btn_remove_image">Remove Image</string>
+    <string name="btn_generate_from_photo">Generate Lyrics</string>
+    <string name="btn_continue_lyrics">Continue My Lyrics</string>
+    <string name="label_existing_lyrics">Your Existing Lyrics</string>
+    <string name="hint_existing_lyrics">Paste the lines you have written so far… Vari will continue naturally from your last line using the photo.</string>
+    <string name="vision_continue_rules_note">Your original lines stay untouched. Vari adds only the next verses inspired by the photo.</string>
+    <string name="vision_camera_denied_title">Camera access is turned off</string>
+    <string name="vision_camera_denied_body">To take a photo, open Settings → Permissions → Camera and allow access for Vari, or upload a photo from your gallery.</string>
+    <string name="btn_open_settings">Open Settings</string>
+    <string name="vision_camera_unavailable">Camera is not available on this device. You can still upload a photo from your gallery.</string>
+    <string name="vision_image_load_error">Could not load that image. Please try another photo.</string>
+    <string name="vision_loading_step_1">Looking at your inspiration…</string>
+    <string name="vision_loading_step_2">Finding emotions in this picture…</string>
+    <string name="vision_loading_step_3">Turning this moment into lyrics…</string>
+    <string name="vision_continuation_header">Continued from Your Lyrics</string>
+    <string name="vision_original_section">Your Original Lyrics (Unchanged)</string>
+    <string name="vision_added_section">New Continuation</string>
+    <string name="btn_copy_continuation">Copy New Lines</string>
+    <string name="btn_copy_full_song">Copy Full Song</string>
+    <string name="btn_save_full_song">Save Full Song</string>
+    <string name="msg_continuation_copied">Continuation copied to clipboard</string>
+    <string name="msg_full_song_copied">Full song copied to clipboard</string>
+    <string name="vision_error_no_image">Capture or upload an inspiration photo first.</string>
+    <string name="vision_error_no_existing_lyrics">Paste your existing lyrics so Vari knows where to continue.</string>
+</resources>

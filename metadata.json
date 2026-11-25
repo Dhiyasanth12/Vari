@@ -1,0 +1,6 @@
+{
+  "name": "Vari (வரி)",
+  "description": "Personal AI song lyrics writer that learns your writing style across Tamil, English, Hindi, Telugu, Malayalam, Kannada, and any other language.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
